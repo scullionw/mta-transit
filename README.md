@@ -7,4 +7,5 @@ Using pip
 
 Using poetry
 
+    $ poetry install
     $ poetry run python transit/main.py
