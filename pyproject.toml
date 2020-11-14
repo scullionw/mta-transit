@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "transit"
+version = "0.1.0"
+description = ""
+authors = ["William Scullion <williamscullion@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gtfs-realtime-bindings = "^0.0.6"
+requests = "^2.25.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
